@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sushi/components/button.dart';
+import 'package:sushi/theme/color.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({super.key});
@@ -9,7 +10,7 @@ class IntroPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 159, 71, 64),
+      backgroundColor:  secondaryColor,
       body: Padding(
         padding: const EdgeInsets.all(25.0),
         child: Column(
